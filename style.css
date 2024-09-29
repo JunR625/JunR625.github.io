@@ -35,7 +35,6 @@ nav .left a{
     font-weight: 600;
 }
 
-
 nav .right a{
     margin: 0 10px;
 }
@@ -45,6 +44,9 @@ nav .right a:last-child{
     color: white;
     padding: 2px 15px;
     border-radius: 5px;
+}
+nav a:hover {
+    color: blue;
 }
 
 @media (max-width: 600px) { /*Any width that is lower than 600px will use this css*/
@@ -76,6 +78,8 @@ nav .right a:last-child{
 
 .hero .photo{
     flex: 2; 
+    display:flex;
+    justify-content: right;
 }
 
 .hero .text h1{
@@ -104,4 +108,9 @@ nav .right a:last-child{
     margin-bottom: 5px;
     background-color: rgb(214, 214, 214);
     color: blue;
+}
+
+.hero .photo img{
+    border-radius: 50%;
+    border-color: #1a1c20;
 }
