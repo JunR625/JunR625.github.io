@@ -49,21 +49,6 @@ nav a:hover {
     color: blue;
 }
 
-@media (max-width: 600px) { /*Any width that is lower than 600px will use this css*/
-    nav {
-        padding: 0 20px;
-    }
-
-    nav .right a span{
-        display: none; /*Hide the span text*/
-    }
-
-    nav .right a:last-child{
-        background-color: transparent;
-        color: black;
-    }
-}
-
 .hero{
     display:flex;
     justify-content: space-between;
@@ -114,7 +99,36 @@ nav a:hover {
     border-radius: 50%;
     border-color: #1a1c20;
 }
+@media (max-width: 600px) { /*Any width that is lower than 600px will use this css*/
+    nav {
+        padding: 0 20px;
+    }
 
+    nav .right a span{
+        display: none; /*Hide the span text*/
+    }
+
+    nav .right a:last-child{
+        background-color: transparent;
+        color: black;
+    }
+    
+    .hero{
+        padding: 0 20px;
+    }
+
+    .hero .text h1{
+        font-size: 30px;
+    }
+
+    .skills {
+        padding:0 20px;
+    }
+
+    .skills .cells .cell span{
+        font-size: 16px;
+    }
+}
 @media (max-width: 820px) {
     .hero .text h1{
         font-size: 32px;
@@ -126,3 +140,47 @@ nav a:hover {
         flex-direction: column-reverse;
     }
 }
+
+/*Skills*/
+.skills {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills h2{
+    text-align:center;
+    font-size: 35px;
+}
+
+
+.skills .text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.4px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.skills .cells .cell img{
+    width: 50px;
+    height: 50px;   
+}
+
+.skills .cells .cell span{
+    font-size: 18px;
+}
+
