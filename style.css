@@ -229,6 +229,8 @@ nav a:hover {
     margin-bottom: 15px;
     outline:none;
     resize: none;
+    display:flex;
+    width: 700px;
 }
 
 
@@ -240,6 +242,7 @@ nav a:hover {
     height: 50px;
     background-color: rgb(57, 103, 211);
     cursor: pointer;
+    padding: 5px;
 }
 
 .contact .group .form button:hover{
