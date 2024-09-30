@@ -14,6 +14,8 @@ body{
     background-color: #eeeff1;
     color: #1a1c20;
     font-size:1.1rem;
+    max-width: 2000px;
+    margin: 0 auto;
 }
  
 a{
@@ -128,6 +130,10 @@ nav a:hover {
     .skills .cells .cell span{
         font-size: 16px;
     }
+
+    .contact{
+        padding: 0 20px;
+    }
 }
 @media (max-width: 820px) {
     .hero .text h1{
@@ -138,6 +144,10 @@ nav a:hover {
 @media (max-width: 740px) {
     .hero{
         flex-direction: column-reverse;
+    }
+
+    .contact .group{
+        flex-direction: column;
     }
 }
 
@@ -184,3 +194,55 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* Contact */
+.contact{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.contact h2{
+    font-size: 35px;
+}
+
+.contact .group{
+    display: flex;
+    gap: 50px;
+}
+
+.contact .group .text{
+    flex:3;
+    margin-top: 20px;
+}
+
+.contact .group .form{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .group .form input,
+.contact .group .form textarea{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(52, 66, 112);
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline:none;
+    resize: none;
+}
+
+
+.contact .group .form button{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    height: 50px;
+    background-color: rgb(57, 103, 211);
+    cursor: pointer;
+}
+
+.contact .group .form button:hover{
+    filter: brightness(0.9);
+
+}
