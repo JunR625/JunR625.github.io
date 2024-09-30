@@ -114,3 +114,15 @@ nav a:hover {
     border-radius: 50%;
     border-color: #1a1c20;
 }
+
+@media (max-width: 820px) {
+    .hero .text h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 740px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+}
