@@ -57,6 +57,7 @@ nav a:hover {
     padding: 0 50px;
     margin: 50px;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .hero .text{
