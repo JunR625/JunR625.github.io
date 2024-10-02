@@ -143,11 +143,15 @@ nav a:hover {
         padding: 0 20px;
     }
 
+    .project{
+        padding: 0 20px;
+    }
+
     .whackamole .image{
         display: flex;
         justify-content: center;
         padding: 30px 0;
-        height: 400px;
+        height: 200px;
     }
 }
 @media (max-width: 820px) {
