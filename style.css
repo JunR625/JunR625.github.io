@@ -205,7 +205,7 @@ nav a:hover {
 
 /*Projects*/
 .projects{
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .projects h1{
@@ -224,7 +224,7 @@ nav a:hover {
 }
 
 .whackamole-header .view-more{
-    border: 1.4px solid rgb(214, 214, 214);
+    border: 2px solid rgb(214, 214, 214);
     border-radius: 5px;
     padding: 10px;
 }
