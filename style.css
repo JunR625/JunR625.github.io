@@ -30,7 +30,7 @@ nav {
     padding: 0 50px;
     align-items: center;
     height: 80px;
-    background-color: white; 
+    background-color: #f3f5f5; 
     width: 100%;
     position: fixed; /* make navbar always visible so u hide it for the javascript */
     z-index: 999; /*make it rlly high so tht it always appear INFRONT of anything as overlay*/
