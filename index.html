@@ -56,6 +56,11 @@
                         <span>Skills</span>
                     </a>
 
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                      </a>
+
                     <a href="#contact">
                         <i class="fa-solid fa-envelope"></i>
                         <span>Contact</span>
@@ -68,6 +73,9 @@
                 <img src="mypic.jpg" alt="Picture of what I look like">
             </div>
         </section>
+
+        <hr>
+
 
         <section class="skills" id="skills">
             <h2>Technical Skills</h2>
@@ -108,6 +116,38 @@
             </div>
         </section>
 
+        <hr>
+
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+            <p>Here are some projects that I have worked on utilizing the various skills I have acquired in different aspects of programming over time.
+                Each project utilizes different programming languages and tools to help me achieve the desired outcome. 
+            </p>
+
+            <br>
+
+            <div class="whackamole">
+                <div class="whackamole-header">
+                    <h3>1.Whack-A-Mole</h3>
+                    <a href="https://drive.google.com/drive/folders/1nUv6nT8IWsMa9bG2EogNicStGMPszhuR?usp=sharing" target="_blank" class="view-more">View More</a>
+                </div>
+                
+                <div class="image">
+                    <video autoplay muted loop>
+                        <source src="molereording.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                This Whack-A-Mole game utilises Scala and scenebuilder tools together with Object-Oriented-Programming techniques in creating the game.
+                This is a fast-paced game that challenges the player's reaction speed by clicking on the mole whilst avoiding the bomb. 
+                Each click on the mole is registered as a successful "Whack" and is worth 1 point. However, clicking on the bomb will result in game over.
+
+            </div>
+
+        </section>
+
+        <hr>
+
         <section class="contact" id="contact">
             <h2>Contact</h2>
 
@@ -135,4 +175,18 @@
 
     </main>
 
+    <script>
+        let prevScrollPos = window.pageYOffset;
+        const nav = document.querySelector('nav');
+    
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollPos > currentScrollPos) {
+                nav.style.top = "0"; // Show navbar when scrolling up
+            } else {
+                nav.style.top = "-80px"; // Hide navbar when scrolling down
+            }
+            prevScrollPos = currentScrollPos;
+        }
+    </script>
 </body>
