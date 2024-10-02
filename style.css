@@ -111,7 +111,7 @@ nav a:hover {
 @media (max-width: 600px) { /*Any width that is lower than 600px will use this css*/
     nav {
         padding: 0 20px;
-        width: 50%;
+        width: auto;
     }
 
     nav .right a span{
