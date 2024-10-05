@@ -145,7 +145,7 @@ nav a:hover {
     }
 
     .project{
-        padding: 0 20px;
+        padding: 20px 20px;
     }
 
     .whackamole .image{
@@ -231,23 +231,26 @@ nav a:hover {
     font-size: 2.5rem;
 }
 
+.whackamole{
+    padding-bottom: 30px;
+}
+
 .whackamole-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .whackamole-header h3{
-    font-size: 2rem;
+    font-size: 2rem;  /*The title*/
 }
 
-.whackamole-header .view-more{
+.view-more{
     border: 2px solid rgb(214, 214, 214);
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 16px;
 }
-.whackamole-header .view-more:hover{
+.view-more:hover{
     border: 1.4px solid rgb(214, 214, 214);
     border-radius: 5px;
     padding: 10px;
@@ -259,6 +262,35 @@ nav a:hover {
     justify-content: center;
     padding: 30px 0;
     height: 650px;
+}
+
+.junair-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.junair-header h3{
+    font-size: 2rem;
+}
+
+.junair-header .view-more{
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 10px;
+}
+.junair-header .view-more:hover{
+    border: 1.4px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(203, 201, 201);
+}
+
+.junair img{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center; /*why wont it center. also get white bckgroundg*/
 }
 
 
