@@ -286,11 +286,23 @@ nav a:hover {
     background: rgb(203, 201, 201);
 }
 
-.junair img{
-    height: 500px;
-    width: auto;
+.junairImage {
     display: flex;
-    justify-content: center; /*why wont it center. also get white bckgroundg*/
+    justify-content: center;
+    align-items: center;
+}
+
+.junairImage img {
+    height: 750px;
+    padding: 20px 0;
+}
+
+.junair{
+    padding-bottom: 30px;
+}
+
+.leJunRong{
+    padding-bottom: 30px;
 }
 
 
