@@ -33,7 +33,7 @@ nav {
     background-color: #f3f5f5; 
     width: 100%;
     position: fixed; /* make navbar always visible so u hide it for the javascript */
-    z-index: 999; /*make it rlly high so tht it always appear INFRONT of anything as overlay*/
+    z-index: 999; /*make it rlly high so tht it always appear INFRONT of anything as overlay.*/
     transition: top 0.3s; 
 }
 
