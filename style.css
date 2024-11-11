@@ -253,7 +253,6 @@ nav a:hover {
 .view-more:hover{
     border: 1.4px solid rgb(214, 214, 214);
     border-radius: 5px;
-    padding: 10px;
     background: rgb(203, 201, 201);
 }
 
@@ -262,6 +261,17 @@ nav a:hover {
     justify-content: center;
     padding: 30px 0;
     height: 650px;
+}
+
+.fuzzyImage img {
+    height: 750px;
+    margin: 15px 0;
+}
+
+.fuzzyImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .junair-header {
@@ -274,17 +284,6 @@ nav a:hover {
     font-size: 2rem;
 }
 
-.junair-header .view-more{
-    border: 2px solid rgb(214, 214, 214);
-    border-radius: 5px;
-    padding: 10px;
-}
-.junair-header .view-more:hover{
-    border: 1.4px solid rgb(214, 214, 214);
-    border-radius: 5px;
-    padding: 10px;
-    background: rgb(203, 201, 201);
-}
 
 .junairImage {
     display: flex;
@@ -302,6 +301,10 @@ nav a:hover {
 }
 
 .leJunRong{
+    padding-bottom: 30px;
+}
+
+.fuzzy{
     padding-bottom: 30px;
 }
 
