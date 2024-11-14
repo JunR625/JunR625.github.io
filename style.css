@@ -108,14 +108,15 @@ nav a:hover {
     border-radius: 50%;
     border-color: #1a1c20;
 }
-@media (max-width: 600px) { /*Any width that is lower than 600px will use this css*/
+/* 
+@media (max-width: 600px) { 
     nav {
         padding: 0 20px;
         padding-bottom:20px;
     }
 
     nav .right a span{
-        display: none; /*Hide the span text*/
+        display: none; 
     }
 
     nav .right a:last-child{
@@ -176,7 +177,7 @@ nav a:hover {
         padding: 30px 0;
         height: 450px;
     }
-}
+} */
 
 /*Skills*/
 .skills {
