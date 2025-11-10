@@ -232,6 +232,23 @@ nav a:hover {
     font-size: 2.5rem;
 }
 
+.hybridImage img {
+    height: 320px;
+    margin: 15px 0;
+}
+.hybridImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hybrid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .whackamole{
     padding-bottom: 30px;
 }
